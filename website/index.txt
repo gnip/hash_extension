@@ -50,7 +50,7 @@ Anywhere you have syntax like this:
 
 You can replace it with this:
 
-<pre syntax="ruby">MyObject.find_as_hashes("select * from my_objects")</pre>
+<pre syntax="ruby">MyObject.find_as_hashes(:all)</pre>
 
 The same data is returned, but without the overhead of creating large, complex ActiveRecord objects.  The rest of your code will continue to behave as expected, because the object-like access will now work correctly with the hashes returned by these methods.
 

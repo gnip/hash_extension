@@ -1,3 +1,7 @@
+== 0.0.3 2008-02-08
+* 1 major enhancement:
+  * find_as_hashes method now works in Rails 2.x, backwards compatible for Rails 1.x
+
 == 0.0.2 2008-02-08
 * 1 major enhancement:
   * Addition of ActiveRecord extensions that return hashes
