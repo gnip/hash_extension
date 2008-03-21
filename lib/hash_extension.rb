@@ -19,7 +19,7 @@ module ActiveRecord
 
       def find_as_hashes(*args)
         options = (
-          args.respond_to?(extract_options!) ?
+          args.respond_to?(:extract_options!) ?
           args.extract_options! : 
           extract_options_from_args!(args) # pre 2.0 compatibility
         )
